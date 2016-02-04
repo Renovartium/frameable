@@ -1,4 +1,4 @@
-ompiled source #
+Compiled source #
 ###################
 *.com
 *.class
@@ -8,6 +8,8 @@ ompiled source #
 *.so
 *.pyc
 __pychache__
+dev_local.py
+.idea/*
 
 # Packages #
 ############

@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'frameable',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -55,7 +56,7 @@ ROOT_URLCONF = 'frameable.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates'), ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -70,6 +71,9 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'frameable.wsgi.application'
 
+STATICFILES_DIRS = (
+    '/home/alex/Projects/frameable/frameable/static',
+)
 
 # Database
 # https://docs.djangoproject.com/en/1.9/ref/settings/#databases
@@ -77,7 +81,7 @@ WSGI_APPLICATION = 'frameable.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME': os.path.join(BASE_DIR, '../../frameable.sqlite3'),
     }
 }
 
