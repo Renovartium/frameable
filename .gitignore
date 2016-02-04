@@ -10,6 +10,7 @@ Compiled source #
 __pychache__
 dev_local.py
 .idea/*
+settings_secret.py
 
 # Packages #
 ############
