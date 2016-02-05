@@ -41,7 +41,7 @@ Note:
         $ mkvirtualenv frameable -p /usr/bin/python3
 
 
-7.  Add the following to the end of the file **~/.virtualenvs/jdc/bin/postactivate**::
+7.  Add the following to the end of the file **~/.virtualenvs/frameable/bin/postactivate**::
 
         export DJANGO_SETTINGS_MODULE=frameable.settings.dev
         export PYTHONPATH=~/Projects/frameable
