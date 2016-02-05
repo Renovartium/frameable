@@ -1,0 +1,35 @@
+html {
+    background: url("http://images.clipartpanda.com/gold-frame-clip-art-gold_frame2.gif") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 5%;
+    padding-left: 16%;
+    padding-right: 16%;
+    padding-bottom: 5%;
+}
+
+body {
+    background-color: #f0eceb;
+}
+
+div.frame_body {
+    background-image: url("http://images.clipartpanda.com/gold-frame-clip-art-gold_frame2.gif");
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    padding: 600px;
+    margin-bottom: 10px;
+}
+
+div.nav-bar {
+    background-color: #729f98;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h1.frameable-title {
+    color:red;
+}
